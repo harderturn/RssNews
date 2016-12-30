@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="80sp"
+    android:gravity="center"
+    android:layout_marginBottom="1sp"
+    android:background="#283593">
+
+    <LinearLayout
+        android:layout_width="0sp"
+        android:layout_weight="4"
+        android:layout_height="60sp"
+        android:orientation="vertical"
+        android:layout_margin="1sp">
+
+        <TextView
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtOzet"
+            android:text="Özet"
+            android:textSize="13sp"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:textColor="#dffffc"
+            android:textStyle="bold"/>
+        <TextView
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/txtDetay"
+            android:text="Detay"
+            android:textSize="12sp"
+            android:textColor="#dffffc"/>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
