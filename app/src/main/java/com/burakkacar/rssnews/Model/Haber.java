@@ -2,6 +2,7 @@ package com.burakkacar.rssnews.Model;
 
 /**
  * Created by MuhammedBurak on 29.12.2016.
+ * Thank you my dear friend by Grrprna
  */
 
 public class Haber
